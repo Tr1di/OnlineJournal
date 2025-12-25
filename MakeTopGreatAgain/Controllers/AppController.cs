@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using MakeTopGreatAgain.Database;
+using MakeTopGreatAgain.Models.Subjects;
+using Microsoft.AspNetCore.Mvc;
 
 namespace MakeTopGreatAgain.Controllers;
 
@@ -6,23 +8,12 @@ namespace MakeTopGreatAgain.Controllers;
 
 [ApiController]
 [Route("[controller]")]
-public class AppController : ControllerBase
+public class AppController(
+    ApplicationDbContext context) : ControllerBase
 {
     [HttpGet]
-    public string Get()
+    public ICollection<Subject> Get()
     {
-        return "Hello World";
-    }
-    
-    [HttpGet("length/{word}")]
-    public string Info(string word)
-    {
-        return $"Hello, {word}!";
-    }
-
-    [HttpGet("length")]
-    public string Info2(string word)
-    {
-        return $"Hello, {word}!";
+        return context.Subjects.ToList();
     }
 }

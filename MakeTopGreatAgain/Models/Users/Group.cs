@@ -12,4 +12,6 @@ public class Group
     public virtual required string Name { get; set; }
     
     public virtual required DateTime StartedAt { get; set; }
+    
+    public virtual required User Sensei { get; set; }
 }

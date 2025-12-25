@@ -1,13 +1,20 @@
-var builder = WebApplication.CreateBuilder(args);
+using MakeTopGreatAgain.Database;
+using MakeTopGreatAgain.Models.Users;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 
-// Add services to the container.
+var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 builder.Services.AddSwaggerGen();
 
+var connectionString = builder.Configuration.GetConnectionString("Default");
+
+builder.Services.AddDbContext<ApplicationDbContext>(options => 
+    options.UseSqlite(connectionString));
+
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();

@@ -2,7 +2,10 @@
 
 namespace MakeTopGreatAgain.Models.Users;
 
-public class User : IdentityUser<Guid>
+public class User : IdentityUser
 {
+    public required string Name { get; set; }
+    public required string Surname { get; set; }
     
+    public required DateTime BirthDate { get; set; }
 }
