@@ -10,7 +10,6 @@ namespace MakeTopGreatAgain.Controllers;
 public class SubjectsController(
     ApplicationDbContext context) : ControllerBase
 {
-    
     [HttpGet]
     public async Task<ActionResult<IEnumerable<Subject>>> All()
     {

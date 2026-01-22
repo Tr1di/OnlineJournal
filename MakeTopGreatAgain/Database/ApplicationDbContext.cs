@@ -6,8 +6,8 @@ using Microsoft.EntityFrameworkCore;
 
 namespace MakeTopGreatAgain.Database;
 
-public class ApplicationDbContext(DbContextOptions<ApplicationDbContext>  options)
-    : IdentityDbContext<User>(options)
+public class ApplicationDbContext(
+    DbContextOptions<ApplicationDbContext> options) : IdentityDbContext<User>(options)
 {
     public DbSet<Group> Groups { get; set; }
     public DbSet<Lesson> Lessons { get; set; }

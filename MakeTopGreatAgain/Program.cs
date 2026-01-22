@@ -1,6 +1,4 @@
 using MakeTopGreatAgain.Database;
-using MakeTopGreatAgain.Models.Users;
-using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
