@@ -29,6 +29,16 @@ public class SubjectsController(
         return item;
     }
 
+    [HttpGet("{query}")]
+    public async Task<ActionResult<IEnumerable<Subject>>> Find(string query)
+    {
+        var item = await context.Subjects
+            .Where(x => x.Title.Contains(query))
+            .ToListAsync();
+        
+        return item;
+    }
+    
     [HttpDelete("{id:guid}")]
     public async Task<ActionResult> Delete(Guid id)
     {
@@ -77,4 +87,6 @@ public class SubjectsController(
         
         return item;
     }
+
+    
 }

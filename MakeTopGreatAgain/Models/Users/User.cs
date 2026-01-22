@@ -8,4 +8,6 @@ public class User : IdentityUser
     public required string Surname { get; set; }
     
     public required DateTime BirthDate { get; set; }
+    
+    public required IList<Product> Wishlist { get; set; }
 }

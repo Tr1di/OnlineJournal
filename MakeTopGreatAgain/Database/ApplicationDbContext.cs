@@ -1,4 +1,5 @@
-﻿using MakeTopGreatAgain.Models.Lessons;
+﻿using MakeTopGreatAgain.Models;
+using MakeTopGreatAgain.Models.Lessons;
 using MakeTopGreatAgain.Models.Subjects;
 using MakeTopGreatAgain.Models.Users;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
@@ -15,4 +16,5 @@ public class ApplicationDbContext(
     public DbSet<Attendees> Attendees { get; set; }
     public DbSet<Subject> Subjects { get; set; }
     public DbSet<HomeworkCompletion> HomeworkCompletions { get; set; }
+    public DbSet<Product> Products { get; set; }
 }
