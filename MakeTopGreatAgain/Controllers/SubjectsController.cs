@@ -13,7 +13,8 @@ public class SubjectsController(
     [HttpGet]
     public async Task<ActionResult<IEnumerable<Subject>>> All()
     {
-        return await context.Subjects.ToListAsync();
+        return await context.Subjects
+            .ToListAsync();
     }
 
     [HttpGet("{id:guid}")]

@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using MakeTopGreatAgain.Models.Users;
 
 namespace MakeTopGreatAgain.Models.Subjects;
 

@@ -3,6 +3,7 @@ using System;
 using MakeTopGreatAgain.Database;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -10,9 +11,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace MakeTopGreatAgain.Database.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20260129171903_123")]
+    partial class _123
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "9.0.12");
@@ -126,7 +129,12 @@ namespace MakeTopGreatAgain.Database.Migrations
                         .HasMaxLength(255)
                         .HasColumnType("TEXT");
 
+                    b.Property<string>("UserId")
+                        .HasColumnType("TEXT");
+
                     b.HasKey("Id");
+
+                    b.HasIndex("UserId");
 
                     b.ToTable("Subjects");
                 });
@@ -358,21 +366,6 @@ namespace MakeTopGreatAgain.Database.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
-            modelBuilder.Entity("SubjectUser", b =>
-                {
-                    b.Property<string>("UserId")
-                        .HasColumnType("TEXT");
-
-                    b.Property<Guid>("WishlistId")
-                        .HasColumnType("TEXT");
-
-                    b.HasKey("UserId", "WishlistId");
-
-                    b.HasIndex("WishlistId");
-
-                    b.ToTable("SubjectUser");
-                });
-
             modelBuilder.Entity("MakeTopGreatAgain.Models.Lessons.Attendees", b =>
                 {
                     b.HasOne("MakeTopGreatAgain.Models.Lessons.Lesson", "Lesson")
@@ -444,6 +437,15 @@ namespace MakeTopGreatAgain.Database.Migrations
                     b.Navigation("Teacher");
                 });
 
+            modelBuilder.Entity("MakeTopGreatAgain.Models.Subjects.Subject", b =>
+                {
+                    b.HasOne("MakeTopGreatAgain.Models.Users.User", "User")
+                        .WithMany("Wishlist")
+                        .HasForeignKey("UserId");
+
+                    b.Navigation("User");
+                });
+
             modelBuilder.Entity("MakeTopGreatAgain.Models.Users.Group", b =>
                 {
                     b.HasOne("MakeTopGreatAgain.Models.Users.User", "Sensei")
@@ -504,19 +506,9 @@ namespace MakeTopGreatAgain.Database.Migrations
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("SubjectUser", b =>
+            modelBuilder.Entity("MakeTopGreatAgain.Models.Users.User", b =>
                 {
-                    b.HasOne("MakeTopGreatAgain.Models.Users.User", null)
-                        .WithMany()
-                        .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("MakeTopGreatAgain.Models.Subjects.Subject", null)
-                        .WithMany()
-                        .HasForeignKey("WishlistId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                    b.Navigation("Wishlist");
                 });
 #pragma warning restore 612, 618
         }
