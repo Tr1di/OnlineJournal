@@ -18,24 +18,6 @@ public class WishlistController(
     [Authorize]
     public async Task<ActionResult> Put(Guid id)
     {
-        var user = await userManager.GetUserAsync(User);
-
-        if (user == null)
-        {
-            return Unauthorized();
-        }
-        
-        var product = await context.Products.FindAsync(id);
-
-        if (product == null)
-        {
-            return NotFound();
-        }
-        
-        user.Wishlist.Add(product);
-
-        await context.SaveChangesAsync();
-
         return Ok();
     }
 }

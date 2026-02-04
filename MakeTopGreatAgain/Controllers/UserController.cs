@@ -1,0 +1,34 @@
+﻿using MakeTopGreatAgain.Models.Users;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc;
+
+namespace MakeTopGreatAgain.Controllers
+{
+    [Route("[controller]")]
+    [ApiController]
+    public class UserController(
+        UserManager<User> userManger) : ControllerBase
+    {
+        [HttpGet]
+        [Authorize]
+        public async Task<ActionResult<User>> Get()
+        {
+            var user = await userManger.GetUserAsync(User);
+
+            if (user == null)
+            {
+                return Unauthorized();
+            }
+
+            return user;
+        }
+
+        [HttpPost]
+        [Authorize]
+        public async Task<IActionResult> Update()
+        {
+
+        }
+    }
+}

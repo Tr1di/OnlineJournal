@@ -16,5 +16,13 @@ public class ApplicationDbContext(
     public DbSet<Attendees> Attendees { get; set; }
     public DbSet<Subject> Subjects { get; set; }
     public DbSet<HomeworkCompletion> HomeworkCompletions { get; set; }
-    public DbSet<Product> Products { get; set; }
+
+    protected override void OnModelCreating(ModelBuilder builder)
+    {
+        builder.Entity<User>()
+            .HasMany(x => x.Wishlist)
+            .WithMany();
+
+        base.OnModelCreating(builder);
+    }
 }
