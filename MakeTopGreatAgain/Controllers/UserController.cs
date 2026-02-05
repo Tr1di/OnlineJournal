@@ -11,7 +11,6 @@ namespace MakeTopGreatAgain.Controllers
         UserManager<User> userManger) : ControllerBase
     {
         [HttpGet]
-        [Authorize]
         public async Task<ActionResult<User>> Get()
         {
             var user = await userManger.GetUserAsync(User);
@@ -22,13 +21,6 @@ namespace MakeTopGreatAgain.Controllers
             }
 
             return user;
-        }
-
-        [HttpPost]
-        [Authorize]
-        public async Task<IActionResult> Update()
-        {
-
         }
     }
 }
