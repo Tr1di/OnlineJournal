@@ -20,15 +20,10 @@ public class WishlistController(
     {
         var user = await userManager.GetUserAsync(User);
 
-        if (user == null)
-        {
-            return Unauthorized();
-        }
-        
         await context.Entry(user)
             .Collection(e => e.Wishlist)
             .LoadAsync();
-        
+
         return user.Wishlist!.ToList();
     }
     
@@ -50,11 +45,7 @@ public class WishlistController(
             return NotFound();
         }
         
-        await context.Entry(user)
-            .Collection(e => e.Wishlist)
-            .LoadAsync();
-        
-        user.Wishlist!.Add(subject);
+        user.Wishlist.Add(subject);
 
         await context.SaveChangesAsync();
 

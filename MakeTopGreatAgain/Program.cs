@@ -12,7 +12,10 @@ builder.Services.AddSwaggerGen();
 var connectionString = builder.Configuration.GetConnectionString("Default");
 
 builder.Services.AddDbContext<ApplicationDbContext>(options => 
-    options.UseSqlite(connectionString));
+    options
+        .UseLazyLoadingProxies()
+        .UseSqlite(connectionString)
+);
 
 builder.Services.AddIdentityApiEndpoints<User>()
     .AddEntityFrameworkStores<ApplicationDbContext>();
