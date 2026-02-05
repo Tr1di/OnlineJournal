@@ -14,13 +14,7 @@ namespace MakeTopGreatAgain.Controllers
         public async Task<ActionResult<User>> Get()
         {
             var user = await userManger.GetUserAsync(User);
-
-            if (user == null)
-            {
-                return Unauthorized();
-            }
-
-            return user;
+            return user!;
         }
     }
 }
