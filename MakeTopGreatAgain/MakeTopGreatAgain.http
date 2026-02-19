@@ -47,3 +47,10 @@ GET http://localhost:5294/api/surname
 accept: text/plain
 
 ###
+PUT http://localhost:5294/Group?
+Content-Type: application/
+
+{
+  "title": "P31",
+  "startsAt": "2026-03-18T17:40:17.204Z"
+}

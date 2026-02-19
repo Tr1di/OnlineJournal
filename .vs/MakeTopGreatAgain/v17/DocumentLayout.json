@@ -3,52 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\Teacher_Blue\\source\\repos\\Tr1di\\OnlineJournal\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2AFE18BD-A372-4B1E-8A4E-ABA5C455FDBC}|MakeTopGreatAgain\\MakeTopGreatAgain.csproj|c:\\users\\teacher_blue\\source\\repos\\tr1di\\onlinejournal\\maketopgreatagain\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2AFE18BD-A372-4B1E-8A4E-ABA5C455FDBC}|MakeTopGreatAgain\\MakeTopGreatAgain.csproj|solutionrelative:maketopgreatagain\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2AFE18BD-A372-4B1E-8A4E-ABA5C455FDBC}|MakeTopGreatAgain\\MakeTopGreatAgain.csproj|c:\\users\\teacher_blue\\source\\repos\\tr1di\\onlinejournal\\maketopgreatagain\\controllers\\groupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AFE18BD-A372-4B1E-8A4E-ABA5C455FDBC}|MakeTopGreatAgain\\MakeTopGreatAgain.csproj|solutionrelative:maketopgreatagain\\controllers\\groupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Teacher_Blue\\source\\repos\\Tr1di\\OnlineJournal\\MakeTopGreatAgain\\Controllers\\UserController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MakeTopGreatAgain\\Controllers\\UserController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2AFE18BD-A372-4B1E-8A4E-ABA5C455FDBC}|MakeTopGreatAgain\\MakeTopGreatAgain.csproj|c:\\users\\teacher_blue\\source\\repos\\tr1di\\onlinejournal\\maketopgreatagain\\maketopgreatagain.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{2AFE18BD-A372-4B1E-8A4E-ABA5C455FDBC}|MakeTopGreatAgain\\MakeTopGreatAgain.csproj|solutionrelative:maketopgreatagain\\maketopgreatagain.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2AFE18BD-A372-4B1E-8A4E-ABA5C455FDBC}|MakeTopGreatAgain\\MakeTopGreatAgain.csproj|c:\\users\\teacher_blue\\source\\repos\\tr1di\\onlinejournal\\maketopgreatagain\\controllers\\wishlistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2AFE18BD-A372-4B1E-8A4E-ABA5C455FDBC}|MakeTopGreatAgain\\MakeTopGreatAgain.csproj|solutionrelative:maketopgreatagain\\controllers\\wishlistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2AFE18BD-A372-4B1E-8A4E-ABA5C455FDBC}|MakeTopGreatAgain\\MakeTopGreatAgain.csproj|c:\\users\\teacher_blue\\source\\repos\\tr1di\\onlinejournal\\maketopgreatagain\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AFE18BD-A372-4B1E-8A4E-ABA5C455FDBC}|MakeTopGreatAgain\\MakeTopGreatAgain.csproj|solutionrelative:maketopgreatagain\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AFE18BD-A372-4B1E-8A4E-ABA5C455FDBC}|MakeTopGreatAgain\\MakeTopGreatAgain.csproj|c:\\users\\teacher_blue\\source\\repos\\tr1di\\onlinejournal\\maketopgreatagain\\data\\groupdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AFE18BD-A372-4B1E-8A4E-ABA5C455FDBC}|MakeTopGreatAgain\\MakeTopGreatAgain.csproj|solutionrelative:maketopgreatagain\\data\\groupdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AFE18BD-A372-4B1E-8A4E-ABA5C455FDBC}|MakeTopGreatAgain\\MakeTopGreatAgain.csproj|c:\\users\\teacher_blue\\source\\repos\\tr1di\\onlinejournal\\maketopgreatagain\\data\\userdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AFE18BD-A372-4B1E-8A4E-ABA5C455FDBC}|MakeTopGreatAgain\\MakeTopGreatAgain.csproj|solutionrelative:maketopgreatagain\\data\\userdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2AFE18BD-A372-4B1E-8A4E-ABA5C455FDBC}|MakeTopGreatAgain\\MakeTopGreatAgain.csproj|c:\\users\\teacher_blue\\source\\repos\\tr1di\\onlinejournal\\maketopgreatagain\\database\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2AFE18BD-A372-4B1E-8A4E-ABA5C455FDBC}|MakeTopGreatAgain\\MakeTopGreatAgain.csproj|solutionrelative:maketopgreatagain\\database\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2AFE18BD-A372-4B1E-8A4E-ABA5C455FDBC}|MakeTopGreatAgain\\MakeTopGreatAgain.csproj|c:\\users\\teacher_blue\\source\\repos\\tr1di\\onlinejournal\\maketopgreatagain\\models\\lessons\\lesson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2AFE18BD-A372-4B1E-8A4E-ABA5C455FDBC}|MakeTopGreatAgain\\MakeTopGreatAgain.csproj|solutionrelative:maketopgreatagain\\models\\lessons\\lesson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2AFE18BD-A372-4B1E-8A4E-ABA5C455FDBC}|MakeTopGreatAgain\\MakeTopGreatAgain.csproj|c:\\users\\teacher_blue\\source\\repos\\tr1di\\onlinejournal\\maketopgreatagain\\mapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AFE18BD-A372-4B1E-8A4E-ABA5C455FDBC}|MakeTopGreatAgain\\MakeTopGreatAgain.csproj|solutionrelative:maketopgreatagain\\mapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Teacher_Blue\\source\\repos\\Tr1di\\OnlineJournal\\Web\\Pages\\Lessons\\Show.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Web\\Pages\\Lessons\\Show.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2AFE18BD-A372-4B1E-8A4E-ABA5C455FDBC}|MakeTopGreatAgain\\MakeTopGreatAgain.csproj|c:\\users\\teacher_blue\\source\\repos\\tr1di\\onlinejournal\\maketopgreatagain\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AFE18BD-A372-4B1E-8A4E-ABA5C455FDBC}|MakeTopGreatAgain\\MakeTopGreatAgain.csproj|solutionrelative:maketopgreatagain\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A3C72CA8-370C-4E0F-8732-F7CF9540AAF9}|Web\\Web.csproj|c:\\users\\teacher_blue\\source\\repos\\tr1di\\onlinejournal\\web\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A3C72CA8-370C-4E0F-8732-F7CF9540AAF9}|Web\\Web.csproj|solutionrelative:web\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{2AFE18BD-A372-4B1E-8A4E-ABA5C455FDBC}|MakeTopGreatAgain\\MakeTopGreatAgain.csproj|c:\\users\\teacher_blue\\source\\repos\\tr1di\\onlinejournal\\maketopgreatagain\\models\\users\\group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AFE18BD-A372-4B1E-8A4E-ABA5C455FDBC}|MakeTopGreatAgain\\MakeTopGreatAgain.csproj|solutionrelative:maketopgreatagain\\models\\users\\group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A3C72CA8-370C-4E0F-8732-F7CF9540AAF9}|Web\\Web.csproj|c:\\users\\teacher_blue\\source\\repos\\tr1di\\onlinejournal\\web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A3C72CA8-370C-4E0F-8732-F7CF9540AAF9}|Web\\Web.csproj|solutionrelative:web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{2AFE18BD-A372-4B1E-8A4E-ABA5C455FDBC}|MakeTopGreatAgain\\MakeTopGreatAgain.csproj|c:\\users\\teacher_blue\\source\\repos\\tr1di\\onlinejournal\\maketopgreatagain\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AFE18BD-A372-4B1E-8A4E-ABA5C455FDBC}|MakeTopGreatAgain\\MakeTopGreatAgain.csproj|solutionrelative:maketopgreatagain\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A3C72CA8-370C-4E0F-8732-F7CF9540AAF9}|Web\\Web.csproj|c:\\users\\teacher_blue\\source\\repos\\tr1di\\onlinejournal\\web\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A3C72CA8-370C-4E0F-8732-F7CF9540AAF9}|Web\\Web.csproj|solutionrelative:web\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Teacher_Blue\\source\\repos\\Tr1di\\OnlineJournal\\Web\\Pages\\Lessons\\Index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Web\\Pages\\Lessons\\Index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Teacher_Blue\\source\\repos\\Tr1di\\OnlineJournal\\Web\\Pages\\Lessons\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Web\\Pages\\Lessons\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A3C72CA8-370C-4E0F-8732-F7CF9540AAF9}|Web\\Web.csproj|c:\\users\\teacher_blue\\source\\repos\\tr1di\\onlinejournal\\web\\pages\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A3C72CA8-370C-4E0F-8732-F7CF9540AAF9}|Web\\Web.csproj|solutionrelative:web\\pages\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{2AFE18BD-A372-4B1E-8A4E-ABA5C455FDBC}|MakeTopGreatAgain\\MakeTopGreatAgain.csproj|c:\\users\\teacher_blue\\source\\repos\\tr1di\\onlinejournal\\maketopgreatagain\\controllers\\subjectscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AFE18BD-A372-4B1E-8A4E-ABA5C455FDBC}|MakeTopGreatAgain\\MakeTopGreatAgain.csproj|solutionrelative:maketopgreatagain\\controllers\\subjectscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,154 +54,149 @@
       "DocumentGroups": [
         {
           "DockedWidth": 174,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Teacher_Blue\\source\\repos\\Tr1di\\OnlineJournal\\MakeTopGreatAgain\\Program.cs",
               "RelativeDocumentMoniker": "MakeTopGreatAgain\\Program.cs",
               "ToolTip": "C:\\Users\\Teacher_Blue\\source\\repos\\Tr1di\\OnlineJournal\\MakeTopGreatAgain\\Program.cs",
               "RelativeToolTip": "MakeTopGreatAgain\\Program.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAMwA8AAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T15:44:32.125Z",
+              "WhenOpened": "2026-02-18T18:21:39.626Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\Teacher_Blue\\source\\repos\\Tr1di\\OnlineJournal\\MakeTopGreatAgain\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "MakeTopGreatAgain\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\Teacher_Blue\\source\\repos\\Tr1di\\OnlineJournal\\MakeTopGreatAgain\\Controllers\\UserController.cs",
-              "RelativeToolTip": "MakeTopGreatAgain\\Controllers\\UserController.cs",
+              "DocumentIndex": 2,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Teacher_Blue\\source\\repos\\Tr1di\\OnlineJournal\\MakeTopGreatAgain\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "MakeTopGreatAgain\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\Teacher_Blue\\source\\repos\\Tr1di\\OnlineJournal\\MakeTopGreatAgain\\Models\\Product.cs",
+              "RelativeToolTip": "MakeTopGreatAgain\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T18:04:29.392Z"
+              "WhenOpened": "2026-02-18T18:21:38.012Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "WishlistController.cs",
-              "DocumentMoniker": "C:\\Users\\Teacher_Blue\\source\\repos\\Tr1di\\OnlineJournal\\MakeTopGreatAgain\\Controllers\\WishlistController.cs",
-              "RelativeDocumentMoniker": "MakeTopGreatAgain\\Controllers\\WishlistController.cs",
-              "ToolTip": "C:\\Users\\Teacher_Blue\\source\\repos\\Tr1di\\OnlineJournal\\MakeTopGreatAgain\\Controllers\\WishlistController.cs",
-              "RelativeToolTip": "MakeTopGreatAgain\\Controllers\\WishlistController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAxwBgAAAAZAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "MapperProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Teacher_Blue\\source\\repos\\Tr1di\\OnlineJournal\\MakeTopGreatAgain\\MapperProfile.cs",
+              "RelativeDocumentMoniker": "MakeTopGreatAgain\\MapperProfile.cs",
+              "ToolTip": "C:\\Users\\Teacher_Blue\\source\\repos\\Tr1di\\OnlineJournal\\MakeTopGreatAgain\\MapperProfile.cs",
+              "RelativeToolTip": "MakeTopGreatAgain\\MapperProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T18:06:06.406Z",
+              "WhenOpened": "2026-02-18T18:19:00.36Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Teacher_Blue\\source\\repos\\Tr1di\\OnlineJournal\\MakeTopGreatAgain\\Database\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "MakeTopGreatAgain\\Database\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\Teacher_Blue\\source\\repos\\Tr1di\\OnlineJournal\\MakeTopGreatAgain\\Database\\ApplicationDbContext.cs",
-              "RelativeToolTip": "MakeTopGreatAgain\\Database\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Title": "GroupData.cs",
+              "DocumentMoniker": "C:\\Users\\Teacher_Blue\\source\\repos\\Tr1di\\OnlineJournal\\MakeTopGreatAgain\\Data\\GroupData.cs",
+              "RelativeDocumentMoniker": "MakeTopGreatAgain\\Data\\GroupData.cs",
+              "ToolTip": "C:\\Users\\Teacher_Blue\\source\\repos\\Tr1di\\OnlineJournal\\MakeTopGreatAgain\\Data\\GroupData.cs",
+              "RelativeToolTip": "MakeTopGreatAgain\\Data\\GroupData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T18:01:32.773Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Show.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\Teacher_Blue\\source\\repos\\Tr1di\\OnlineJournal\\Web\\Pages\\Lessons\\Show.cshtml.cs",
-              "RelativeDocumentMoniker": "Web\\Pages\\Lessons\\Show.cshtml.cs",
-              "ToolTip": "C:\\Users\\Teacher_Blue\\source\\repos\\Tr1di\\OnlineJournal\\Web\\Pages\\Lessons\\Show.cshtml.cs",
-              "RelativeToolTip": "Web\\Pages\\Lessons\\Show.cshtml.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-28T18:15:15.431Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Teacher_Blue\\source\\repos\\Tr1di\\OnlineJournal\\Web\\Pages\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Web\\Pages\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Teacher_Blue\\source\\repos\\Tr1di\\OnlineJournal\\Web\\Pages\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Web\\Pages\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAIBZwBoAAABdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-28T17:54:38.13Z",
+              "WhenOpened": "2026-02-18T18:16:07.849Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Lesson.cs",
-              "DocumentMoniker": "C:\\Users\\Teacher_Blue\\source\\repos\\Tr1di\\OnlineJournal\\MakeTopGreatAgain\\Models\\Lessons\\Lesson.cs",
-              "RelativeDocumentMoniker": "MakeTopGreatAgain\\Models\\Lessons\\Lesson.cs",
-              "ToolTip": "C:\\Users\\Teacher_Blue\\source\\repos\\Tr1di\\OnlineJournal\\MakeTopGreatAgain\\Models\\Lessons\\Lesson.cs",
-              "RelativeToolTip": "MakeTopGreatAgain\\Models\\Lessons\\Lesson.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAIBJwA0AAAAjAAAAAAAAAA==",
+              "Title": "UserData.cs",
+              "DocumentMoniker": "C:\\Users\\Teacher_Blue\\source\\repos\\Tr1di\\OnlineJournal\\MakeTopGreatAgain\\Data\\UserData.cs",
+              "RelativeDocumentMoniker": "MakeTopGreatAgain\\Data\\UserData.cs",
+              "ToolTip": "C:\\Users\\Teacher_Blue\\source\\repos\\Tr1di\\OnlineJournal\\MakeTopGreatAgain\\Data\\UserData.cs",
+              "RelativeToolTip": "MakeTopGreatAgain\\Data\\UserData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-28T17:43:40.017Z",
+              "WhenOpened": "2026-02-18T18:15:35.09Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Teacher_Blue\\source\\repos\\Tr1di\\OnlineJournal\\Web\\appsettings.json",
-              "RelativeDocumentMoniker": "Web\\appsettings.json",
-              "ToolTip": "C:\\Users\\Teacher_Blue\\source\\repos\\Tr1di\\OnlineJournal\\Web\\appsettings.json",
-              "RelativeToolTip": "Web\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-01-28T17:34:48.972Z",
+              "DocumentIndex": 1,
+              "Title": "MakeTopGreatAgain.http",
+              "DocumentMoniker": "C:\\Users\\Teacher_Blue\\source\\repos\\Tr1di\\OnlineJournal\\MakeTopGreatAgain\\MakeTopGreatAgain.http",
+              "RelativeDocumentMoniker": "MakeTopGreatAgain\\MakeTopGreatAgain.http",
+              "ToolTip": "C:\\Users\\Teacher_Blue\\source\\repos\\Tr1di\\OnlineJournal\\MakeTopGreatAgain\\MakeTopGreatAgain.http",
+              "RelativeToolTip": "MakeTopGreatAgain\\MakeTopGreatAgain.http",
+              "ViewState": "AgIAACQAAAAAAAAAAAAowDIAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2026-02-18T17:41:03.556Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Teacher_Blue\\source\\repos\\Tr1di\\OnlineJournal\\Web\\Pages\\Index.cshtml",
-              "RelativeDocumentMoniker": "Web\\Pages\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Teacher_Blue\\source\\repos\\Tr1di\\OnlineJournal\\Web\\Pages\\Index.cshtml",
-              "RelativeToolTip": "Web\\Pages\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-28T17:33:24.925Z",
+              "Title": "Group.cs",
+              "DocumentMoniker": "C:\\Users\\Teacher_Blue\\source\\repos\\Tr1di\\OnlineJournal\\MakeTopGreatAgain\\Models\\Users\\Group.cs",
+              "RelativeDocumentMoniker": "MakeTopGreatAgain\\Models\\Users\\Group.cs",
+              "ToolTip": "C:\\Users\\Teacher_Blue\\source\\repos\\Tr1di\\OnlineJournal\\MakeTopGreatAgain\\Models\\Users\\Group.cs",
+              "RelativeToolTip": "MakeTopGreatAgain\\Models\\Users\\Group.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T17:31:44.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Teacher_Blue\\source\\repos\\Tr1di\\OnlineJournal\\MakeTopGreatAgain\\Database\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "MakeTopGreatAgain\\Database\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Teacher_Blue\\source\\repos\\Tr1di\\OnlineJournal\\MakeTopGreatAgain\\Database\\ApplicationDbContext.cs",
+              "RelativeToolTip": "MakeTopGreatAgain\\Database\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T17:18:42.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GroupController.cs",
+              "DocumentMoniker": "C:\\Users\\Teacher_Blue\\source\\repos\\Tr1di\\OnlineJournal\\MakeTopGreatAgain\\Controllers\\GroupController.cs",
+              "RelativeDocumentMoniker": "MakeTopGreatAgain\\Controllers\\GroupController.cs",
+              "ToolTip": "C:\\Users\\Teacher_Blue\\source\\repos\\Tr1di\\OnlineJournal\\MakeTopGreatAgain\\Controllers\\GroupController.cs",
+              "RelativeToolTip": "MakeTopGreatAgain\\Controllers\\GroupController.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAowDQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T15:52:01.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SubjectsController.cs",
+              "DocumentMoniker": "C:\\Users\\Teacher_Blue\\source\\repos\\Tr1di\\OnlineJournal\\MakeTopGreatAgain\\Controllers\\SubjectsController.cs",
+              "RelativeDocumentMoniker": "MakeTopGreatAgain\\Controllers\\SubjectsController.cs",
+              "ToolTip": "C:\\Users\\Teacher_Blue\\source\\repos\\Tr1di\\OnlineJournal\\MakeTopGreatAgain\\Controllers\\SubjectsController.cs",
+              "RelativeToolTip": "MakeTopGreatAgain\\Controllers\\SubjectsController.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAmwFoAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T15:45:28.894Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "Index.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\Teacher_Blue\\source\\repos\\Tr1di\\OnlineJournal\\Web\\Pages\\Lessons\\Index.cshtml.cs",
-              "RelativeDocumentMoniker": "Web\\Pages\\Lessons\\Index.cshtml.cs",
-              "ToolTip": "C:\\Users\\Teacher_Blue\\source\\repos\\Tr1di\\OnlineJournal\\Web\\Pages\\Lessons\\Index.cshtml.cs",
-              "RelativeToolTip": "Web\\Pages\\Lessons\\Index.cshtml.cs",
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\Teacher_Blue\\source\\repos\\Tr1di\\OnlineJournal\\MakeTopGreatAgain\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "MakeTopGreatAgain\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\Teacher_Blue\\source\\repos\\Tr1di\\OnlineJournal\\MakeTopGreatAgain\\Controllers\\UserController.cs",
+              "RelativeToolTip": "MakeTopGreatAgain\\Controllers\\UserController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAgwBQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-28T17:24:45.583Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Teacher_Blue\\source\\repos\\Tr1di\\OnlineJournal\\Web\\Pages\\Lessons\\Index.cshtml",
-              "RelativeDocumentMoniker": "Web\\Pages\\Lessons\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Teacher_Blue\\source\\repos\\Tr1di\\OnlineJournal\\Web\\Pages\\Lessons\\Index.cshtml",
-              "RelativeToolTip": "Web\\Pages\\Lessons\\Index.cshtml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-28T17:24:46.329Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Privacy.cshtml",
-              "DocumentMoniker": "C:\\Users\\Teacher_Blue\\source\\repos\\Tr1di\\OnlineJournal\\Web\\Pages\\Privacy.cshtml",
-              "RelativeDocumentMoniker": "Web\\Pages\\Privacy.cshtml",
-              "ToolTip": "C:\\Users\\Teacher_Blue\\source\\repos\\Tr1di\\OnlineJournal\\Web\\Pages\\Privacy.cshtml",
-              "RelativeToolTip": "Web\\Pages\\Privacy.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-28T18:04:17.999Z",
+              "WhenOpened": "2026-02-12T18:21:34.77Z",
               "EditorCaption": ""
             }
           ]

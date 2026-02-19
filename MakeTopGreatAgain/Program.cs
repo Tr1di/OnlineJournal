@@ -1,3 +1,4 @@
+using MakeTopGreatAgain;
 using MakeTopGreatAgain.Database;
 using MakeTopGreatAgain.Models.Users;
 using Microsoft.EntityFrameworkCore;
@@ -16,6 +17,8 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 
 builder.Services.AddIdentityApiEndpoints<User>()
     .AddEntityFrameworkStores<ApplicationDbContext>();
+
+builder.Services.AddAutoMapper(_ => { }, typeof(MapperProfile).Assembly);
 
 var app = builder.Build();
 
