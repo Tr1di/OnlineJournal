@@ -22,6 +22,9 @@ builder.Services.AddIdentityApiEndpoints<User>()
 
 builder.Services.AddAutoMapper(_ => { }, typeof(MapperProfile).Assembly);
 
+builder.Services.Configure<SecurityStampValidatorOptions>(o => 
+    o.ValidationInterval = TimeSpan.FromMinutes(1));
+
 var app = builder.Build();
 
 if (app.Environment.IsDevelopment())
