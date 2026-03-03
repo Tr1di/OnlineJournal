@@ -57,6 +57,7 @@ public class RolesController(
             var user = await context.Users.FindAsync(userId.ToString());
             if (user is null) return NotFound();
             await userManager.RemoveFromRoleAsync(user, role);
+            await userManager.UpdateSecurityStampAsync(user);
         }
         else
         {
