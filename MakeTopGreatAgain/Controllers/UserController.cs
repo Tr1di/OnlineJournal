@@ -47,10 +47,4 @@ namespace MakeTopGreatAgain.Controllers
         public string Name { get; set; }
         public string LastName { get; set; }
     }
-
-    public class CreateGroupData
-    {
-        public string Title { get; set; }
-        public Guid? TeacherId { get; set; }
-    }
 }
