@@ -1,5 +1,6 @@
 using MakeTopGreatAgain;
 using MakeTopGreatAgain.Database;
+using MakeTopGreatAgain.Middleware.Restrict;
 using MakeTopGreatAgain.Models.Users;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -36,6 +37,8 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
+
+app.UseMiddleware<RestrictMiddleware>();
 
 app.MapControllers();
 

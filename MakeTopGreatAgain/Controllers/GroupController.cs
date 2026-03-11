@@ -1,7 +1,9 @@
-﻿using AutoMapper;
+﻿using System.Net;
+using AutoMapper;
 using AutoMapper.QueryableExtensions;
 using MakeTopGreatAgain.Data;
 using MakeTopGreatAgain.Database;
+using MakeTopGreatAgain.Middleware.Restrict;
 using MakeTopGreatAgain.Models.Users;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -15,6 +17,7 @@ public class GroupController(
     ApplicationDbContext context) : ControllerBase
 {
     [HttpGet]
+    [Restrict("127.0.0.1", "123.12.7.84")]
     public async Task<ActionResult<ICollection<GroupData>>> Index()
     {
         return await context.Groups
