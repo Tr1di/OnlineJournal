@@ -9,8 +9,10 @@ public class Lesson
     [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
     public virtual Guid Id { get; protected set; }
     
-    public virtual required User Teacher { get; set; } 
+    public virtual required User Teacher { get; set; }
+    
     public virtual required Group Group { get; set; } 
+    
     public virtual required Subject Subject { get; set; }
     
     public virtual required Homework Homework { get; set; }

@@ -13,5 +13,5 @@ public class Group
     
     public virtual required DateTime StartedAt { get; set; }
     
-    public virtual User? Sensei { get; set; }
+    public virtual IList<GroupUser>? Users { get; set; }
 }

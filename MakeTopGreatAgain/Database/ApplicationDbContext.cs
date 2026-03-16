@@ -22,7 +22,7 @@ public class ApplicationDbContext(
         builder.Entity<User>()
             .HasMany(x => x.Wishlist)
             .WithMany();
-
+        
         base.OnModelCreating(builder);
     }
 }
