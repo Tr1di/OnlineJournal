@@ -16,14 +16,12 @@ public class RolesController(
     RoleManager<IdentityRole> roleManager) : ControllerBase
 {
     [HttpGet]
-    [Authorize(Roles = "test")]
     public async Task<ActionResult<ICollection<IdentityRole>>> All()
     {
         return await context.Roles.ToListAsync();
     }
 
     [HttpPut]
-    [Authorize(Roles = "admin")]
     public async Task<ActionResult<IdentityRole>> Create(string name)
     {
         if (context.Roles.Any(role => role.Name == name))

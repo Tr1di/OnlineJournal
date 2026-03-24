@@ -16,12 +16,12 @@ public class RestrictMiddleware(RequestDelegate next)
         }
 
         var allowed = restrict.Allowed.Contains(context.Connection.RemoteIpAddress);
-
+        
         if (!allowed)
         {
             context.Response.Clear();
             context.Response.StatusCode = (int)HttpStatusCode.Forbidden;
-            await context.Response.WriteAsync("Unauthorized");
+            await context.Response.WriteAsync("Forbidden");
             return;
         }
         

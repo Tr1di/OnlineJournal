@@ -1,5 +1,4 @@
-﻿using System.Net;
-using AutoMapper;
+﻿using AutoMapper;
 using AutoMapper.QueryableExtensions;
 using MakeTopGreatAgain.Data;
 using MakeTopGreatAgain.Database;
@@ -21,7 +20,7 @@ public class GroupController(
     public async Task<ActionResult<ICollection<GroupData>>> Index()
     {
         return await context.Groups
-            .Include(x => x.Sensei)
+            .Include(x => x.Users)
             .ProjectTo<GroupData>(mapper.ConfigurationProvider)
             .ToListAsync();
     }
@@ -45,7 +44,6 @@ public class GroupController(
         {
             Name = group.Title,
             StartedAt = group.StartsAt ?? DateTime.Now,
-            Sensei = user
         });
 
         await context.SaveChangesAsync();

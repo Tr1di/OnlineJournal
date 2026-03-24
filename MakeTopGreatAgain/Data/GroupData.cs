@@ -1,10 +1,11 @@
-﻿namespace MakeTopGreatAgain.Data
+﻿namespace MakeTopGreatAgain.Data;
+
+public class GroupData
 {
-    public class GroupData
-    {
-        public Guid Id { get; init; }
-        public string Name { get; init; }
-        public DateTime StartedAt { get; init; }
-        public UserData? Sensei { get; init; }
-    }
+    public Guid Id { get; init; }
+    public string Name { get; init; }
+    public DateTime StartedAt { get; init; }
+        
+    public UserData Sensei { get; set; }
+    public IList<UserData> Students { get; set; }
 }

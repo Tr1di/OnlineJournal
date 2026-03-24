@@ -3,6 +3,7 @@ using System;
 using MakeTopGreatAgain.Database;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -10,9 +11,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace MakeTopGreatAgain.Database.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20260316164344_Groups")]
+    partial class Groups
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "9.0.11");
@@ -147,15 +150,15 @@ namespace MakeTopGreatAgain.Database.Migrations
                     b.Property<Guid>("GroupId")
                         .HasColumnType("TEXT");
 
-                    b.Property<bool>("IsSensei")
-                        .HasColumnType("INTEGER");
+                    b.Property<string>("RoleId")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
 
                     b.HasKey("UserId", "GroupId");
 
                     b.HasIndex("GroupId");
 
-                    b.HasIndex("UserId", "IsSensei")
-                        .IsUnique();
+                    b.HasIndex("RoleId");
 
                     b.ToTable("GroupUser");
                 });
@@ -452,18 +455,26 @@ namespace MakeTopGreatAgain.Database.Migrations
             modelBuilder.Entity("MakeTopGreatAgain.Models.Users.GroupUser", b =>
                 {
                     b.HasOne("MakeTopGreatAgain.Models.Users.Group", "Group")
-                        .WithMany("UserRoles")
+                        .WithMany("Users")
                         .HasForeignKey("GroupId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
+                    b.HasOne("Microsoft.AspNetCore.Identity.IdentityRole", "Role")
+                        .WithMany()
+                        .HasForeignKey("RoleId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.HasOne("MakeTopGreatAgain.Models.Users.User", "User")
-                        .WithMany("GroupRoles")
+                        .WithMany("Groups")
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.Navigation("Group");
+
+                    b.Navigation("Role");
 
                     b.Navigation("User");
                 });
@@ -536,12 +547,12 @@ namespace MakeTopGreatAgain.Database.Migrations
 
             modelBuilder.Entity("MakeTopGreatAgain.Models.Users.Group", b =>
                 {
-                    b.Navigation("UserRoles");
+                    b.Navigation("Users");
                 });
 
             modelBuilder.Entity("MakeTopGreatAgain.Models.Users.User", b =>
                 {
-                    b.Navigation("GroupRoles");
+                    b.Navigation("Groups");
                 });
 #pragma warning restore 612, 618
         }

@@ -6,12 +6,13 @@ namespace MakeTopGreatAgain.Models.Users;
 public class Group
 {
     [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-    public virtual Guid Id { get; protected set; }
+    public virtual Guid Id { get; protected init; }
     
     [MaxLength(255)]
-    public virtual required string Name { get; set; }
+    public virtual required string Name { get; init; }
     
-    public virtual required DateTime StartedAt { get; set; }
-    
-    public virtual IList<GroupUser>? Users { get; set; }
+    public virtual required DateTime StartedAt { get; init; }
+
+    public virtual IList<User>? Users { get; init; }
+    public virtual IList<GroupUser>? UserRoles { get; init; }
 }

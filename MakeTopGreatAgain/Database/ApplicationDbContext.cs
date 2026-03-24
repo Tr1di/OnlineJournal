@@ -22,6 +22,11 @@ public class ApplicationDbContext(
         builder.Entity<User>()
             .HasMany(x => x.Wishlist)
             .WithMany();
+
+        builder.Entity<User>()
+            .HasMany(x => x.Groups)
+            .WithMany(x => x.Users)
+            .UsingEntity<GroupUser>();
         
         base.OnModelCreating(builder);
     }

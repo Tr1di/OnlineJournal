@@ -8,7 +8,26 @@ namespace MakeTopGreatAgain
     {
         public MapperProfile()
         {
-            CreateMap<Group, GroupData>();
+            CreateMap<Group, GroupData>()
+                .ForMember(
+                    data => data.Sensei,
+                    expression =>
+                    {
+                        expression.Condition(x => x.UserRoles != null);
+                        expression.MapFrom(group => group.UserRoles
+                            .Where(user => user.IsSensei)
+                            .Select(x => x.User)
+                            .FirstOrDefault());
+                    })
+                .ForMember(
+                    data => data.Students,
+                    expression =>
+                    {
+                        expression.Condition(x => x.UserRoles != null);
+                        expression.MapFrom(group => group.UserRoles
+                            .Where(user => !user.IsSensei)
+                            .Select(x => x.User));
+                    });
             CreateMap<User, UserData>();
         }
     }

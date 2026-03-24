@@ -13,9 +13,10 @@ public class User : IdentityUser
     [MaxLength(255)]
     public virtual string? Surname { get; set; }
     
-    public virtual DateTime? BirthDate { get; set; }
+    public virtual DateTime? BirthDate { get; init; }
     
-    public virtual IList<Subject>? Wishlist { get; set; }
+    public virtual IList<Subject>? Wishlist { get; init; }
     
-    public virtual IList<GroupUser>? Groups { get; set; }
+    public virtual IList<Group>? Groups { get; init; }
+    public virtual IList<GroupUser>? GroupRoles { get; init; }
 }
