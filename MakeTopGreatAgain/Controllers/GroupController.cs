@@ -3,8 +3,11 @@ using AutoMapper.QueryableExtensions;
 using MakeTopGreatAgain.Data;
 using MakeTopGreatAgain.Database;
 using MakeTopGreatAgain.Models.Users;
+using MakeTopGreatAgain.Validators;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System.ComponentModel.DataAnnotations;
 
 namespace MakeTopGreatAgain.Controllers;
 
@@ -24,6 +27,7 @@ public class GroupController(
     }
 
     [HttpPut]
+    // [Authorize(Roles = "admin")]
     public async Task<ActionResult> Create(GroupCreateRequest group)
     {
         User? user = null;
@@ -49,11 +53,34 @@ public class GroupController(
 
         return Ok();
     }
+
+    [HttpPut("example")]
+    public async Task<ActionResult> Create(
+        [Required] [MinLength(10)] string title,
+        DateTime? startsAt = null)
+    {
+        await context.Groups.AddAsync(new Group
+        {
+            Name = title,
+            StartedAt = startsAt ?? DateTime.Now,
+        });
+
+        await context.SaveChangesAsync();
+
+        return Ok();
+    }
 }
 
 public class GroupCreateRequest 
 {
-    public required string Title { get; set; }
+    [Required(ErrorMessage = "Необходимо указать название группы")]
+    [MinLength(10, ErrorMessage = "Название группы должно содержать как минимум 10 символов")]
+    public string Title { get; set; }
+
     public DateTime? StartsAt { get; set; }
+
     public Guid? TeacherId { get; set; }
+
+    [GreaterThan(10)]
+    public int? amount {  get; set; }
 }
