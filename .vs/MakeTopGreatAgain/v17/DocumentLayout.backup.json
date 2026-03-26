@@ -7,16 +7,16 @@
       "RelativeMoniker": "D:0:0:{2AFE18BD-A372-4B1E-8A4E-ABA5C455FDBC}|MakeTopGreatAgain\\MakeTopGreatAgain.csproj|solutionrelative:maketopgreatagain\\validators\\greaterthanattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{2AFE18BD-A372-4B1E-8A4E-ABA5C455FDBC}|MakeTopGreatAgain\\MakeTopGreatAgain.csproj|c:\\users\\\u0442\u043E\u043F\\source\\repos\\onlinejournal\\maketopgreatagain\\controllers\\groupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AFE18BD-A372-4B1E-8A4E-ABA5C455FDBC}|MakeTopGreatAgain\\MakeTopGreatAgain.csproj|solutionrelative:maketopgreatagain\\controllers\\groupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2AFE18BD-A372-4B1E-8A4E-ABA5C455FDBC}|MakeTopGreatAgain\\MakeTopGreatAgain.csproj|c:\\users\\\u0442\u043E\u043F\\source\\repos\\onlinejournal\\maketopgreatagain\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2AFE18BD-A372-4B1E-8A4E-ABA5C455FDBC}|MakeTopGreatAgain\\MakeTopGreatAgain.csproj|solutionrelative:maketopgreatagain\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2AFE18BD-A372-4B1E-8A4E-ABA5C455FDBC}|MakeTopGreatAgain\\MakeTopGreatAgain.csproj|c:\\users\\\u0442\u043E\u043F\\source\\repos\\onlinejournal\\maketopgreatagain\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{2AFE18BD-A372-4B1E-8A4E-ABA5C455FDBC}|MakeTopGreatAgain\\MakeTopGreatAgain.csproj|solutionrelative:maketopgreatagain\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2AFE18BD-A372-4B1E-8A4E-ABA5C455FDBC}|MakeTopGreatAgain\\MakeTopGreatAgain.csproj|c:\\users\\\u0442\u043E\u043F\\source\\repos\\onlinejournal\\maketopgreatagain\\controllers\\groupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2AFE18BD-A372-4B1E-8A4E-ABA5C455FDBC}|MakeTopGreatAgain\\MakeTopGreatAgain.csproj|solutionrelative:maketopgreatagain\\controllers\\groupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -36,18 +36,18 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "GreaterThanAttribute.cs",
-              "DocumentMoniker": "C:\\Users\\\u0442\u043E\u043F\\Source\\Repos\\OnlineJournal\\MakeTopGreatAgain\\Validators\\GreaterThanAttribute.cs",
+              "DocumentMoniker": "C:\\Users\\\u0442\u043E\u043F\\source\\repos\\OnlineJournal\\MakeTopGreatAgain\\Validators\\GreaterThanAttribute.cs",
               "RelativeDocumentMoniker": "MakeTopGreatAgain\\Validators\\GreaterThanAttribute.cs",
-              "ToolTip": "C:\\Users\\\u0442\u043E\u043F\\Source\\Repos\\OnlineJournal\\MakeTopGreatAgain\\Validators\\GreaterThanAttribute.cs",
+              "ToolTip": "C:\\Users\\\u0442\u043E\u043F\\source\\repos\\OnlineJournal\\MakeTopGreatAgain\\Validators\\GreaterThanAttribute.cs",
               "RelativeToolTip": "MakeTopGreatAgain\\Validators\\GreaterThanAttribute.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAwwCYAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAswAcAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-25T16:49:26.001Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "RoleController.cs",
               "DocumentMoniker": "C:\\Users\\\u0442\u043E\u043F\\source\\repos\\OnlineJournal\\MakeTopGreatAgain\\Controllers\\RoleController.cs",
               "RelativeDocumentMoniker": "MakeTopGreatAgain\\Controllers\\RoleController.cs",
@@ -60,7 +60,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\\u0442\u043E\u043F\\source\\repos\\OnlineJournal\\MakeTopGreatAgain\\appsettings.json",
               "RelativeDocumentMoniker": "MakeTopGreatAgain\\appsettings.json",
@@ -73,13 +73,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "GroupController.cs",
               "DocumentMoniker": "C:\\Users\\\u0442\u043E\u043F\\source\\repos\\OnlineJournal\\MakeTopGreatAgain\\Controllers\\GroupController.cs",
               "RelativeDocumentMoniker": "MakeTopGreatAgain\\Controllers\\GroupController.cs",
               "ToolTip": "C:\\Users\\\u0442\u043E\u043F\\source\\repos\\OnlineJournal\\MakeTopGreatAgain\\Controllers\\GroupController.cs",
               "RelativeToolTip": "MakeTopGreatAgain\\Controllers\\GroupController.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAADwvz8AAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAUwEwAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-26T16:36:58.53Z",
               "EditorCaption": ""

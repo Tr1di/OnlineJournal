@@ -1,30 +1,29 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using AutoMapper.Configuration;
+using System.ComponentModel.DataAnnotations;
+using System.Globalization;
 
 namespace MakeTopGreatAgain.Validators;
 
-public class GreaterThanAttribute(int min) : ValidationAttribute
+public class GreaterThanAttribute(int min) 
+    : ValidationAttribute("Value must be greater than {0}")
 {
     public int Min { get; } = min;
 
-    protected override ValidationResult? IsValid(object? value, ValidationContext validationContext)
+    public override bool IsValid(object? value)
     {
         if (value == null)
         {
-            return ValidationResult.Success;
+            return true;
         }
 
         if (value is not int intVal)
         {
-            return new ValidationResult("Not an int", [validationContext.MemberName]);
+            throw new InvalidCastException("Cannot cast to int");
         }
 
-        if (intVal <= Min)
-        {
-            return new ValidationResult(
-                ErrorMessage ?? $"Value must be greater than {Min}.", 
-                [validationContext.MemberName]);
-        }
-
-        return ValidationResult.Success;
+        return intVal > Min;
     }
-};
+
+    public override string FormatErrorMessage(string name) =>
+            string.Format(CultureInfo.CurrentCulture, ErrorMessageString, Min);
+}
